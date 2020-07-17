@@ -8,3 +8,51 @@ Template: twentytwenty
 Version: 1.0.0
 Tags: Academy, Arts, Sueños en Escena
 */
+
+/* logo layout  */
+
+@media (min-width: 700px) {
+  .site-logo img {
+      max-height: 19rem;
+      transition: height 0.15s linear, width 0.15s linear, max-height 0.15s linear;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header-titles .site-title, .header-titles .site-logo, .header-titles .site-description {
+      margin: 4px auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header-titles {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      margin: -1rem 0 0 -2.4rem;
+  }
+}
+
+/* header layout */
+
+@media (min-width: 1000px) {
+  .header-inner {
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      padding: 2.8rem 0;
+  }
+}
+
+/* site color fonts */
+
+body:not(.overlay-header) .primary-menu > li > a,
+body:not(.overlay-header) .primary-menu > li >
+.icon, .modal-menu a, .footer-menu a, .footer-widgets a,
+#site-footer .wp-block-button.is-style-outline,
+.wp-block-pullquote:before, .singular:not(.overlay-header)
+.entry-header a, .archive-header a, .header-footer-group
+.color-accent, .header-footer-group .color-accent-hover:hover {
+    color: rgb(169, 13,54);
+}
