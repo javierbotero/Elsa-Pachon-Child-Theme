@@ -18,7 +18,6 @@ get_header();
 ?>
 
 <main id="site-content" role="main">
-  <div> HELOOOOOOOOOOO </div>
 
 	<?php
 
@@ -80,6 +79,7 @@ get_header();
 		$i = 0;
 
 		while ( have_posts() ) {
+    
 			$i++;
 			if ( $i > 1 ) {
 				echo '<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true" />';
