@@ -56,3 +56,7 @@ body:not(.overlay-header) .primary-menu > li >
 .color-accent, .header-footer-group .color-accent-hover:hover {
     color: rgb(169, 13,54);
 }
+
+.video-opening {
+  background-color: black;
+}
