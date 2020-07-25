@@ -11,10 +11,9 @@ function my_theme_enqueue_styles() {
 
 // run_video
 
-// add_action('wp_body_open', 'run_video');
+// add_action('wp_head', 'run_video');
 
-function run_video() {
-  if (is_page(6)) {
-    echo "<h1 class='video-opening'>VIDEO TO RUN</h1>";
-  }
-}
+// function run_video() {
+//   if (is_page(6)) {
+//   }
+// }
