@@ -45,6 +45,11 @@ Tags: Academy, Arts, Sueños en Escena
   }
 }
 
+#site-header > div.header-inner.section-inner {
+  position: relative;
+  z-index: 0;
+}
+
 /* site color fonts */
 
 body:not(.overlay-header) .primary-menu > li > a,
