@@ -34,6 +34,13 @@ Tags: Academy, Arts, Sueños en Escena
   }
 }
 
+@media (max-width: 999px) {
+  .logo-suenos {
+    position: absolute;
+    opacity: 0;
+  }
+}
+
 /* header layout */
 
 @media (min-width: 1000px) {
@@ -50,6 +57,9 @@ Tags: Academy, Arts, Sueños en Escena
   z-index: 0;
 }
 
+.actores-header {
+  background-image: linear-gradient(to bottom, black, transparent);
+}
 /* site color fonts */
 
 body:not(.overlay-header) .primary-menu > li > a,

@@ -32,7 +32,7 @@
 
 		<header id="site-header" class="header-footer-group" role="banner">
 
-			<div class="header-inner section-inner">
+			<div class="header-inner section-inner <?php if (is_page_template('templates/template-cover.php')) echo 'actores-header'; ?>">
 
 				<div class="header-titles-wrapper">
 
@@ -54,19 +54,33 @@
 							</span>
 						</button><!-- .search-toggle -->
 
+					<?php }
+
+					if (is_page_template('templates/template-cover.php')) { ?>
+						<div class="header-titles logo-suenos">
+
+							<?php
+								// Site title or logo.
+								twentytwenty_site_logo();
+
+								// Site description.
+								twentytwenty_site_description();
+							?>
+
+						</div><!-- .header-titles -->
+					<?php } else { ?>
+						<div class="header-titles">
+
+							<?php
+								// Site title or logo.
+								twentytwenty_site_logo();
+
+								// Site description.
+								twentytwenty_site_description();
+							?>
+
+						</div><!-- .header-titles -->
 					<?php } ?>
-
-					<div class="header-titles">
-
-						<?php
-							// Site title or logo.
-							twentytwenty_site_logo();
-
-							// Site description.
-							twentytwenty_site_description();
-						?>
-
-					</div><!-- .header-titles -->
 
 					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal"  data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
 						<span class="toggle-inner">
