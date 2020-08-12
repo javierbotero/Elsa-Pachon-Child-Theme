@@ -83,3 +83,9 @@ body:not(.overlay-header) .primary-menu > li >
   margin: 0 auto;
   width: 100%;
 }
+
+/* actores images style */
+
+.efecto-actores:hover {
+  mix-blend-mode: luminosity;
+}
