@@ -89,3 +89,20 @@ body:not(.overlay-header) .primary-menu > li >
 .efecto-actores:hover {
   mix-blend-mode: luminosity;
 }
+
+/* button woocomerce */
+
+ul.products li.product .button {
+    color: #1e73be;
+}
+
+a.button, a.button:hover, a.button:visited {
+  color: #1e73be;
+}
+
+@media only screen and (max-width: 768px) {
+  .woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {
+      background: #fff;
+      color: #1e73be;
+  }
+}
