@@ -196,7 +196,7 @@
 			if (is_page(6)) {
 			?>
 		<div class="video-container">
-			<video autoplay loop class="video-opening">
+			<video autoplay loop controls class="video-opening">
 				<source src="http://localhost/elsapachon/wp-content/uploads/2020/07/Institucional.mp4" type="video/mp4">
 			</video>
 		</div>
