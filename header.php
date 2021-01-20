@@ -197,7 +197,7 @@
 			?>
 		<div class="video-container">
 			<video autoplay loop controls class="video-opening">
-				<source src="http://localhost/elsapachon/wp-content/uploads/2020/07/Institucional.mp4" type="video/mp4">
+				<source src="https://res.cloudinary.com/enterprise/video/upload/v1607743360/Institucional.mp4" type="video/mp4">
 			</video>
 		</div>
 	<?php } ?>

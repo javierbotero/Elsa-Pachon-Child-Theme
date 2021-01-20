@@ -26,3 +26,10 @@ function addFormToContact() {
 }
 
 add_filter('the_content', 'addFormToContact');
+
+
+function putInJsScript () {
+  wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/js/script.js', array ( 'jquery' ), 1.1, true);
+}
+
+add_action('wp_footer', 'putInJsScript', 10, 0);
